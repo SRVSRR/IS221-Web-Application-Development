@@ -1,5 +1,5 @@
 # IS221: Web Application Development
-![SRVSRR](https://github.com/SRVSRR/CS111/assets/135499024/57bca3d3-2a84-47af-b895-99e6d6f90759)
+![IS221: Web Application Development](https://github.com/SRVSRR/)
 ## Contents
 - Course updated to 2025.
 - 13 weeks worth of solved lab sheets.

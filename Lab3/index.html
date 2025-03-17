@@ -1,12 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="IS221 - Web Applications Development - Lab 3">
-<title>IS221 - Web Applications Development</title>
-<link rel="stylesheet" href="../css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IS221 - Web Applications Development - Lab 3">
+    <title>IS221 - Web Applications Development</title>
+    <link rel="stylesheet" href="../Lab3/lab3styles.css">
 </head>
 <body>
+    <!-- Header Section --> 
+    <header >
+        <img src="../Lab3/images/usp_logo.jpg" alt="USP Logo" >
+        <h1>IS221 - Web Applications Development</h1>
+    </header>
+    <!-- Navigation Menu --> 
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html" target="_blank">
+                    <img src="../Lab3/images/aboutme.gif" alt="About Me">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="http://www.usp.ac.fj">
+                    <img src="../Lab3/images/home.png" alt="Home">
+                    USP
+                </a>
+            </li>
+            <li>
+                <a href="Activity2.html">
+                    <img src="./images/xhtml.gif" alt="XHTMK">
+                    XHTML
+                </a>
+            </li>
+        </ul>    
+    </nav>
+    <main class="container">
+        <!-- Content will be added here-->
+         <section class="column">
+            <h2>Course Description</h2>
+            <p>This course provides the student with a practical foundation in using high-level languages that are common in developing web applications. It will examine theoretical concepts of web design and various web development tools. Upon completion student should be able to develop a functional dynamic website. 	In this course, we will take an in depth look at web design concepts and techniques. We will examine theoretical concepts that make the world of Web design unique. Also, this course will adopt a practical hands-on approach when examining Web development techniques. Along with examining different coding strategies, this course will explore the advancement of Web site implementation, as well as, timeless problem solving strategies. </p>
+            <h2>Learning Outcome</h2>
+            <ul>
+                <li>Develop dynamic web sites using a web development environment such as ASP.NET.</li>
+                <li>Apply ethical practices to development of the websites.</li>
+                <li>Illustrate the various principles used in website design </li>
+                <li>Demonstrate the use of scripting and markup languages used in website development.</li>
+            </ul>
+         </section>
+         <!--Lecture Schedule Section-->
+         <section class="column">
+            <h2>Lecture Schedule</h2>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Room</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>3:00 – 4:00 PM</td>
+                    <td>018-001</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>9:00 – 10:00 AM</td>
+                    <td>018-001</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>9:00 – 10:00 AM</td>
+                    <td>093-002</td>
+                </tr>
+            </table>
+         </section>
+    </main>
+    <footer>
+        <h2>Quick Links</h2>
+        <ul>
+            <li>
+                <a href="https://www.elearn.usp.ac.fj/">USP Moodle</a>
+            </li>
+            <li>
+                <a href="https://www.usp.ac.fj/">USP Website</a>
+            </li>
+        </ul>
+        <p>©<span id="year"></span> IS221: Web Application Development</p>
+    </footer>
+    <!-- JavaScript to Set Current Year Automatically -->
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>

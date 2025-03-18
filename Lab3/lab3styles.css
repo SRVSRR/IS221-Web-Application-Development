@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: ???; /* What background color will be best for readability? */
+    background-color: white; /* What background color will be best for readability? */
 }
 
 /* Question: Why is it important to set a background color instead of relying on browser defaults? */
@@ -12,14 +12,15 @@ body {
 header {
     display: flex;
     align-items: center;
-    padding: ???; /* How much padding will make the header balanced? */
+    justify-content: center;
+    padding: 10px; /* How much padding will make the header balanced? */
     background-color: #003366;
     color: white;
 }
 
 header img {
-    height: ???px; /* What is a reasonable height for the logo? */
-    margin-right: ???px; /* Adjust margin so text and image are spaced correctly */
+    height: 38px; /* What is a reasonable height for the logo? */
+    margin-right: 20px; /* Adjust margin so text and image are spaced correctly */
 }
 
 /* Question: What happens if `display: flex;` is removed from `header`? */
@@ -27,7 +28,7 @@ header img {
 /* Navigation Menu */
 nav {
     background-color: #0055a4;
-    padding: ???; /* Adjust padding for better spacing */
+    padding: 15px; /* Adjust padding for better spacing */
 }
 
 nav ul {
@@ -35,11 +36,11 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: ???; /* Should the links be centered or spaced out? */
+    justify-content: center; /* Should the links be centered or spaced out? */
 }
 
 nav ul li {
-    margin: 0 ???px; /* Set horizontal spacing between menu items */
+    margin: 0 20px; /* Set horizontal spacing between menu items */
 }
 
 nav ul li a {
@@ -51,8 +52,8 @@ nav ul li a {
 }
 
 nav ul li a img {
-    height: ???px; /* Adjust icon size for better alignment */
-    margin-right: ???px; /* Space between icon and text */
+    height: 17px; /* Adjust icon size for better alignment */
+    margin-right: 5px; /* Space between icon and text */
 }
 
 nav ul li a:hover {
@@ -64,13 +65,13 @@ nav ul li a:hover {
 /* Two-Column Layout */
 .container {
     display: flex;
-    justify-content: ???; /* Should columns have equal space or be spread out? */
+    justify-content: space-evenly; /* Should columns have equal space or be spread out? */
     margin: 20px;
 }
 
 /* Column Styling */
 .column {
-    flex: ???; /* Should columns take equal space (1:1) or different widths? */
+    flex: auto; /* Should columns take equal space (1:1) or different widths? */
     padding: 20px;
     background: white;
     border-radius: 8px;
@@ -80,11 +81,11 @@ nav ul li a:hover {
 
 /* Set Column Widths */
 .column:first-child {
-    flex-basis: ???%; /* Should the left column be 60% or 50%? */
+    flex-basis: 50%; /* Should the left column be 60% or 50%? */
 }
 
 .column:last-child {
-    flex-basis: ???%; /* Should the right column be 40% or 50%? */
+    flex-basis: 50%; /* Should the right column be 40% or 50%? */
 }
 
 /* Question: What happens if both `.column:first-child` and `.column:last-child` are set to 50%? */
@@ -98,7 +99,7 @@ table {
 
 th, td {
     border: 1px solid #ccc;
-    padding: ???px; /* How much padding ensures readability? */
+    padding: 10px; /* How much padding ensures readability? */
     text-align: left;
 }
 
@@ -114,7 +115,7 @@ footer {
     background-color: #003366;
     color: white;
     text-align: center;
-    padding: ???px; /* Adjust padding for spacing */
+    padding: 0px; /* Adjust padding for spacing */
     margin-top: 20px;
 }
 
@@ -125,7 +126,7 @@ footer ul {
 
 footer ul li {
     display: inline;
-    margin: ???px; /* Adjust spacing between footer links */
+    margin: 30px; /* Adjust spacing between footer links */
 }
 
 footer ul li a {

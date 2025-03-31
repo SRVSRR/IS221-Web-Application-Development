@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/srvsrr/University Shit/Projects/IS221/Lab4/wwwroot/images/images-2.jpeg",
+      "PackagePath": "staticwebassets/images/images-2.jpeg"
+    },
+    {
+      "Id": "/Users/srvsrr/University Shit/Projects/IS221/Lab4/wwwroot/images/images.jpeg",
+      "PackagePath": "staticwebassets/images/images.jpeg"
+    },
+    {
       "Id": "/Users/srvsrr/University Shit/Projects/IS221/Lab4/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

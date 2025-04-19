@@ -4,7 +4,7 @@
 - Course updated to 2025.
 - 13 weeks worth of solved lab sheets.
 - Assignment 1 & 2 with documentation.
-- Lab tests 1 & 2 answered with comments.
+- Mid-Semester Test with answers.
 ## Learning Resources
 - <a href="https://www.learncpp.com" target="_blank">Learn HTML & CSS </a>
 - <a href="https://roadmap.sh/cpp" target="_blank">Frontend Developer Roadmap </a>

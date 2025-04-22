@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.column {
+    flex: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.column:first-child {
+    flex-basis: 50%;
+}
+
+.column:last-child {
+    flex-basis: 50%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2a71d0;
+    color: white;
+}
+

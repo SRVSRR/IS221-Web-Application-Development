@@ -1,0 +1,44 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="University.Master.vb" Inherits="master_pages.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../styles/default.css" rel="stylesheet" type="text/css" />
+     <link href="../styles/aboutme.css" rel="stylesheet"  type="text/css"/>
+     <link href="../styles/is221.css" rel="stylesheet"  type="text/css"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+       <header class="header">
+
+           <asp:Image ID="Image1" runat="server" AlternateText="USP Logo" Height="100%" ImageUrl="~/images/usplogo.png" />
+           </header>
+
+        <nav class="menu">
+
+            MENU<br />
+            <br />
+            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl=" http://www.usp.ac.fj" Target="_blank">USP Home</asp:HyperLink>
+            <br />
+            <br />
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/IS221.aspx" Target="_blank">IS211</asp:HyperLink>
+            <br />
+            <br />
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/aboutme.aspx" Target="_blank">About Me</asp:HyperLink>
+            <br />
+            <br />
+            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Register.aspx" Target="_blank">Register</asp:HyperLink>
+
+        </nav>
+
+        <main class="maincontent">
+            <asp:ContentPlaceHolder ID="contentArea" runat="server">
+            </asp:ContentPlaceHolder>
+        </main> 
+    </form>
+</body>
+</html>

@@ -1,0 +1,9 @@
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
+}

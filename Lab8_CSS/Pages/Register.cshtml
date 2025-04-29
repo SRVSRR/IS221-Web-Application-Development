@@ -1,0 +1,80 @@
+@page
+@model Lab7_StudentRegistration.Pages.RegisterModel
+@{
+    ViewData["Title"] = "Student Registration Form";
+}
+
+<h2>Student Registration Form</h2>
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group mb-3">
+                <label asp-for="Student.Stu_ID" class="form-label">Student ID</label>
+                <input asp-for="Student.Stu_ID" class="form-control" />
+                <span asp-validation-for="Student.Stu_ID" class="text-danger"></span>
+                <small class="form-text text-muted">Must start with 'S' followed by 8 digits (e.g. S12345678)</small>
+            </div>
+            
+            <div class="form-group mb-3">
+                <label asp-for="Student.Stu_Name" class="form-label">Full Name</label>
+                <input asp-for="Student.Stu_Name" class="form-control" />
+                <span asp-validation-for="Student.Stu_Name" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-3">
+                <label asp-for="Student.Stu_Passwd" class="form-label">Password</label>
+                <input asp-for="Student.Stu_Passwd" class="form-control" type="password" />
+                <span asp-validation-for="Student.Stu_Passwd" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-3">
+                <label asp-for="Student.Stu_Prog" class="form-label">Program</label>
+                <select asp-for="Student.Stu_Prog" class="form-select">
+                    <option value="">Select Program</option>
+                    <option value="Undergraduate">Undergraduate</option>
+                    <option value="Postgraduate">Postgraduate</option>
+                    <option value="Certificate">Certificate</option>
+                </select>
+                <span asp-validation-for="Student.Stu_Prog" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mb-3">
+                <label class="form-label">Majors</label>
+                <div>
+                    @foreach (var major in Model.Majors)
+                    {
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" 
+                                   name="SelectedMajors" value="@major.Name" 
+                                   id="major_@major.Name.Replace(" ", "_")" />
+                            <label class="form-check-label" 
+                                   for="major_@major.Name.Replace(" ", "_")">@major.Name</label>
+                        </div>
+                    }
+                </div>
+            </div>
+            
+            <div class="form-group mb-3">
+                <button type="submit" class="btn btn-primary">Register Me</button>
+            </div>
+            
+            @if (Model.IsSuccess)
+            {
+                <div class="alert alert-success mt-3">
+                    <p>The following details have been saved to our database</p>
+                    <strong>Student ID:</strong> @Model.Student.Stu_ID <br />
+                    <strong>Name:</strong> @Model.Student.Stu_Name <br />
+                    <strong>Program:</strong> @Model.Student.Stu_Prog <br />
+                    <strong>Majors:</strong> @string.Join(", ", Model.SelectedMajors)
+                </div>
+            }
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

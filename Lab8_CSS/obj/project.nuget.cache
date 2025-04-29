@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rCUfrgeGSPI=",
+  "dgSpecHash": "lO4HVaOPTB0=",
   "success": true,
-  "projectFilePath": "/Users/srvsrr/University Shit/Projects/IS221/Lab7_StudentRegistration/Lab7_StudentRegistration.csproj",
+  "projectFilePath": "/Users/srvsrr/University Shit/Projects/IS221/Lab8_CSS/Lab7_StudentRegistration.csproj",
   "expectedPackageFiles": [
     "/Users/srvsrr/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/srvsrr/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

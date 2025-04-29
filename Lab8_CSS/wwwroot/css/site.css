@@ -65,3 +65,49 @@ body {
       font-size: 0.9rem;
   }
 }
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="email"], select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+  
+input[type="radio"],input[type="checkbox"] {
+  margin-right: 5px;
+}
+  
+fieldset {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #e0f0ff; /* Light blue background */
+}
+  
+legend {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+input[type="submit"],input[type="button"], button {
+  background-color: #007acc; /* Light blue button */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover, input[type="button"]:hover, button:hover {
+  background-color: #005fa3; /* Slightly darker blue on hover */
+}

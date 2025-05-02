@@ -10,7 +10,7 @@
 - <a href="https://www.learncpp.com" target="_blank">Learn HTML & CSS </a>
 - <a href="https://roadmap.sh/cpp" target="_blank">Frontend Developer Roadmap </a>
 - <a href="https://youtu.be/-TkoO8Z07hI?si=JcH613azWVTTj1ya" target="_blank">HTML Full Course for free ⚡️ 
- </a>
+ </a> 
 
 
 

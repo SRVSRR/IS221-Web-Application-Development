@@ -1,0 +1,114 @@
+/* print.css - Printer-friendly styles for Student Registration System */
+
+/* Basic page setup */
+body {
+    background-color: white !important;
+    font-family: "Times New Roman", serif !important;
+    font-size: 12pt !important;
+    color: black !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Hide navigation, header, footer and other non-essential elements */
+nav, 
+.menu, 
+#header,
+.header,
+footer,
+#footer,
+.nav,
+.navigation,
+#navigation,
+.Student.Registration.System nav,
+.register-button,
+.button,
+button,
+.btn,
+#Go.to.Registration,
+[href*="Registration"] {
+    display: none !important;
+}
+
+/* Make sure no background images print */
+* {
+    background-image: none !important;
+}
+
+/* Format content area */
+.main-content,
+main,
+#main,
+.content,
+#content {
+    margin: 0.5in !important;
+    padding: 0 !important;
+    width: 100% !important;
+    border: none !important;
+    box-shadow: none !important;
+    float: none !important;
+}
+
+/* Style headings */
+h1 { 
+    font-size: 18pt !important;
+    margin-bottom: 0.25in !important;
+}
+
+h2 { 
+    font-size: 14pt !important;
+    margin-top: 0.2in !important;
+    margin-bottom: 0.1in !important;
+}
+
+h3 {
+    font-size: 12pt !important;
+    font-weight: bold !important;
+}
+
+/* Handle links */
+a, a:link, a:visited {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+/* Remove shadows, borders and rounded corners */
+* {
+    box-shadow: none !important;
+    text-shadow: none !important;
+    border-radius: 0 !important;
+}
+
+/* Improve table display */
+table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+}
+
+table, th, td {
+    border: 1px solid #999 !important;
+}
+
+th, td {
+    padding: 0.1in !important;
+    text-align: left !important;
+}
+
+/* Add page breaks where needed */
+h1, h2, h3, 
+table, img {
+    page-break-inside: avoid !important;
+}
+
+/* Force specific page breaks if needed */
+.page-break {
+    page-break-before: always !important;
+}
+
+/* Display URLs for links (uncomment if desired) */
+/*
+a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 90%;
+}
+*/

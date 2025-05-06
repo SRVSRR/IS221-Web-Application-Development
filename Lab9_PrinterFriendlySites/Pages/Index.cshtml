@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Student Registration System</h1>
+    <p class="lead">Welcome to the Student Registration System for Lab 7</p>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                Register a Student
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">New Student Registration</h5>
+                <p class="card-text">Add a new student to the database with their program and majors.</p>
+                <a asp-page="/Register" class="btn btn-primary">Go to Registration</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header bg-success text-white">
+                View Students
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Student List</h5>
+                <p class="card-text">View all registered students and their selected programs and majors.</p>
+                <a asp-page="/StudentList" class="btn btn-success">View Students</a>
+            </div>
+        </div>
+    </div>
+</div>

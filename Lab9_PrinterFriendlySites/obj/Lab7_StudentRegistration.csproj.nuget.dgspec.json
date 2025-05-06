@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/srvsrr/University Shit/Projects/IS221/Lab8_CSS/Lab7_StudentRegistration.csproj": {}
+    "/Users/srvsrr/University Shit/Projects/IS221/Lab9_PrinterFriendlySites/Lab7_StudentRegistration.csproj": {}
   },
   "projects": {
-    "/Users/srvsrr/University Shit/Projects/IS221/Lab8_CSS/Lab7_StudentRegistration.csproj": {
+    "/Users/srvsrr/University Shit/Projects/IS221/Lab9_PrinterFriendlySites/Lab7_StudentRegistration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/srvsrr/University Shit/Projects/IS221/Lab8_CSS/Lab7_StudentRegistration.csproj",
+        "projectUniqueName": "/Users/srvsrr/University Shit/Projects/IS221/Lab9_PrinterFriendlySites/Lab7_StudentRegistration.csproj",
         "projectName": "Lab7_StudentRegistration",
-        "projectPath": "/Users/srvsrr/University Shit/Projects/IS221/Lab8_CSS/Lab7_StudentRegistration.csproj",
+        "projectPath": "/Users/srvsrr/University Shit/Projects/IS221/Lab9_PrinterFriendlySites/Lab7_StudentRegistration.csproj",
         "packagesPath": "/Users/srvsrr/.nuget/packages/",
-        "outputPath": "/Users/srvsrr/University Shit/Projects/IS221/Lab8_CSS/obj/",
+        "outputPath": "/Users/srvsrr/University Shit/Projects/IS221/Lab9_PrinterFriendlySites/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/srvsrr/.nuget/NuGet/NuGet.Config"

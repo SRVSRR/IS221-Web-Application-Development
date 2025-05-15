@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cities>
+    <City name="Ba" region="Western"></City>
+    <City name="Suva" region="Central"></City>
+    <City name="Savusavu" region="Northern"></City>
+    <City name="Nausori" region="Central"></City>
+    <City name="Navua" region="Western"></City>
+</Cities>
